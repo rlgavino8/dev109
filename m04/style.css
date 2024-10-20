@@ -1,0 +1,55 @@
+* {
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;
+				text-align: center;}
+
+			body {
+				width: 90%;
+				margin: 0 auto;
+        background-image: url("https://t4.ftcdn.net/jpg/08/26/54/09/360_F_826540944_gODYEyPTKA4M7KwkW0wHJYjwMpTzQzUt.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+			#content {
+				overflow: auto;}
+			#nav, #feature, #footer {
+				margin: 1%;}
+			.column1, .column2, .column3 {
+				width: 31.3%;
+				float: left;
+				margin: 1%;}
+			.column3 {
+				margin-right: 0%;}
+			li {
+				display: inline;
+				padding: 0.5em;}
+			#nav, #footer {
+				background-color: #FFFF99;
+				padding: 0.5em 0;}
+			#feature, .article {
+				height: 10em;
+				margin-bottom: 1em;
+				background-color: #efefef;}
+#feature {
+  background-color: #ff6666;
+  background-image: url("https://www.svgrepo.com/show/130330/rainbow.svg");
+  background-size:contain;
+ background-position: right;
+ background-repeat:no-repeat;
+}
+#nav {
+  background-color: #99FF99
+}
+#article, .column1 {
+  background-color: #3399FF
+}
+.column2 {
+  background-color: #9999FF
+}
+.column3 {
+  background-color: #FFB266
+}
+.header {
+  font-family: 'CooperHewittBoldItalic';
+   font-weight: normal;
+   font-style: normal;
+}
